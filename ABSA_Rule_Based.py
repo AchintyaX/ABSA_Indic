@@ -1,9 +1,10 @@
 import textblob 
 from textblob import TextBlob
 
+
+# used to find the location points of aspect term in the review
+# takes tokenized aspect term and article as input 
 def aspect_term_location(aspect_term, article, lang_code):
-    if lang_code == 'en':
-        aspect_term = spacy_tokenizer(aspect_term)
     location_points = []
     start_point = article.index(aspect_term[0])
     location_points.append(start_point)
@@ -13,8 +14,10 @@ def aspect_term_location(aspect_term, article, lang_code):
     
     return location_points 
 
-
-def word_distance(aspect_term, article, lang_code):
+# Used to find the aspect term sentiment, for a sentence in the review 
+# takes the aspect term, sentence and language code as the input 
+# The aspect term and sentence need to be tokenized 
+def word_distance_based_score(aspect_term, article, lang_code):
 	aspect_locations = aspect_term_location(aspect_term, article, lang_code)
 
 	if len(aspect_locations) == 1:
