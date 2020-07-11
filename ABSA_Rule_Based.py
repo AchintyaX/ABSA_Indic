@@ -38,9 +38,9 @@ def word_distance_based_score(aspect_term, article, lang_code, pos_words=None, n
 	tot_polarity_end = 0 
 
 	for i in range(start_point):
-		if lang_code = 'en':
+		if lang_code == 'en':
 			polarity = TextBlob(article[i]).polarity
-		if lang_code = 'hi':
+		if lang_code =='hi':
 			polarity = get_word_polarity(article[i], pos_words, neg_words, model)
 		distance = i 
 		tot_polarity_start = tot_polarity_start + polarity*(distance/start_point)
@@ -49,7 +49,10 @@ def word_distance_based_score(aspect_term, article, lang_code, pos_words=None, n
 
 	end_dist = len(article) - 1 
 	for i in range(end_point+1, len(article)):
-		polarity = TextBlob(article[i]).polarity 
+		if  lang_code == 'en':
+			polarity = TextBlob(article[i]).polarity 
+		if lang_code == 'hi':
+			polarity = get_word_polarity(article[i], pos_words, neg_words, model)
 		distance = end_dist - i
 		tot_polarity_end = tot_polarity_end + (distance/end_dist)*polarity
 
