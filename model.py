@@ -99,3 +99,19 @@ def word_gen(word_array, model, polarity, pos_words_dict, neg_words_dict):
 			correct_words.append(i)
 
 	return correct_words
+
+
+# Getting word level polarity, return a value between -1 and 1 which reflects  the polarity 
+def get_word_polarity(word, pos_words, neg_words, model):
+    token_pos = get_sentiment(word, pos_words, model)
+    token_neg = get_sentiment(word, neg_words, model)
+
+    if token_pos >= token_neg:
+        token = token_pos
+        if token < 0.40:
+            token = 0
+    else:
+        token = -1*token_neg
+        if token > -0.40 :
+            token = 0 
+    return token
