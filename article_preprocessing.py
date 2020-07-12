@@ -32,15 +32,15 @@ def remove_named_entities(text):
 # removing punctuations and numbers 
 def preprocess(text):
     text = text.lower()
-    text = sub(r"[^A-Za-z0-9^,!?.\/'+]", " ", text)
+    text = sub(r"[^A-Za-z0-9^,!?.\/'+]", "", text)
     text = sub(r"\+", " plus ", text)
-    text = sub(r",", " ", text)
-    text = sub(r"\.", " ", text)
+    text = sub(r",", "", text)
+    text = sub(r"\.", "", text)
     text = sub(r"!", " ! ", text)
     text = sub(r"\?", " ? ", text)
-    text = sub(r"'", " ", text)
+    text = sub(r"'", "", text)
     text = sub(r":", " : ", text)
-    text = sub(r"\s{2,}", " ", text)
+    text = sub(r"\s{2,}", "", text)
 
     return text
 
@@ -149,6 +149,19 @@ def load_dicts(filepath):
 def spacy_tokenizer(text):
     nlp = en_core_web_sm.load()
     doc = nlp(text)
-    tokens = [token.lemma_ for token in doc]
+    tokens = [token.text for token in doc]
     tokens = [i for i in tokens if i != '-PRON-']
     return tokens 
+
+# Sentence Segmentation using spacy for different lanaguages 
+# Returns the array of strings each being a sentence in a whole article 
+def sentence_segmentation(article, lang_code):
+    if lang_code == 'en':
+        nlp = en_core_web_sm.load()
+    if lang_code == 'hi':
+        nlp = Hindi()
+    nlp.add_pipe(nlp.create_pipe('sentencizer'))
+    doc = nlp(article)
+    sentences = [i for i in doc.sents]
+    sentences = [ str(i) for i in sentences]
+    return sentences 
