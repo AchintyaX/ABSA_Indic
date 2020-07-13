@@ -18,6 +18,7 @@ nltk.download('punkt')
 nltk.download('wordnet')
 
 
+
 # removing named entities 
 def remove_named_entities(text):
     nlp = en_core_web_sm.load()
@@ -32,15 +33,15 @@ def remove_named_entities(text):
 # removing punctuations and numbers 
 def preprocess(text):
     text = text.lower()
-    text = sub(r"[^A-Za-z0-9^,!?.\/'+]", "", text)
+    text = sub(r"[^A-Za-z0-9^,!?.\/'+]", " ", text)
     text = sub(r"\+", " plus ", text)
-    text = sub(r",", "", text)
-    text = sub(r"\.", "", text)
+    text = sub(r",", " ", text)
+    text = sub(r"\.", " ", text)
     text = sub(r"!", " ! ", text)
     text = sub(r"\?", " ? ", text)
-    text = sub(r"'", "", text)
+    text = sub(r"'", " ", text)
     text = sub(r":", " : ", text)
-    text = sub(r"\s{2,}", "", text)
+    text = sub(r"\s{2,}", " ", text)
 
     return text
 
@@ -142,7 +143,7 @@ def load_dicts(filepath):
     word_map['pos'] = df['PosScore']
     word_map['neg'] = df['NegScore']
 
-    word_map = word_map.to_dict('recorc')
+    word_map = word_map.to_dict('record')
 
     return word_map
 # loading the simple spacy tokenizer for english 
@@ -165,3 +166,17 @@ def sentence_segmentation(article, lang_code):
     sentences = [i for i in doc.sents]
     sentences = [ str(i) for i in sentences]
     return sentences 
+
+# loading hindi stopwords 
+def load_hin_stopwords(filepath):
+    with open(filepath, encoding='utf-8') as f:
+        stopword = f.read().strip('\ufeff')
+    stopword = stopword.split(", ")
+    stopwords = [i.strip("'" ) for i in stopword]
+    return stopwords
+
+# Removing hindi stopwords from tokenized text 
+def remove_hin_stopwords(text, filepath):
+    stopwords = load_hin_stopwords(filepath)
+    text = [i for i in text if not i in stopwords]
+    return text
