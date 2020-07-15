@@ -2,6 +2,14 @@ import textblob
 from textblob import TextBlob
 import numpy as np
 from gensim.models.fasttext import FastText
+import nltk 
+from nltk.stem import WordNetLemmatizer
+
+nltk.download('wordnet')
+
+
+lemmatizer = WordNetLemmatizer()
+'''
 # retrieving the sentiment vector 
 def sentiment_coeff(article):
 	sentiment_vector = []
@@ -11,7 +19,7 @@ def sentiment_coeff(article):
 
 	return sentiment_vector
 
-
+'''
 
 # retrieving the term frequency vector 
 def term_frequency(article):
@@ -115,3 +123,35 @@ def get_word_polarity(word, pos_words, neg_words, model):
         if token > -0.40 :
             token = 0 
     return token
+
+# Loading polar words 
+def get_polar_words(filename):
+    with open(filename, encoding="ISO-8859-1") as f:
+        words = set(f.read().splitlines())
+    return words
+
+pos_words = get_polar_words("resources/pos_lemm.txt")
+neg_words = get_polar_words("resources/neg_lemm.txt")
+
+
+# retrieving the sentiment vector
+def sentiment_coeff(article):
+    sentiment_vector = []
+    flip_polarity = False
+    for word in article:
+        word_lemmatized = lemmatizer.lemmatize(word)
+        if word_lemmatized == "not":
+            flip_polarity = True
+            score = 0
+        elif word_lemmatized in pos_words:
+            score = 0.9
+        elif word_lemmatized in neg_words:
+            score = -0.9
+        else:
+            score = TextBlob(word).polarity
+            if abs(score) < 0.75:
+                score = 0
+        sentiment_vector.append(score)
+    if flip_polarity:
+        sentiment_vector = [e * -1 for e in sentiment_vector]
+    return sentiment_vector

@@ -135,11 +135,25 @@ def get_synonyms(word):
 
 
 # loading the dictionary of ground positive and negative words rem
-def load_dicts(filepath):
+def load_dicts(filepath, lang_code):
+
+    lang_dict = {
+    'hi':'hindi', 
+    'mr':'Marathi', 
+    'ml':'Malayalam',
+    'gu': 'Gujarati',
+    'kn':'Kannada', 
+    'ur':'Urdu', 
+    'bn':'Bangla', 
+    'te':'Telugu', 
+    'or':'Oriya', 
+    'pa':'Punjabi'
+    }
+    
     df = pd.read_csv(filepath)
 
     word_map = pd.DataFrame()
-    word_map['word'] = df['hindi']
+    word_map['word'] = df[lang_dict[lang_code]]
     word_map['pos'] = df['PosScore']
     word_map['neg'] = df['NegScore']
 
