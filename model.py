@@ -56,16 +56,7 @@ def predict_sentiment(article, lang_code, model, pos_words, neg_words):
 def get_senti_coeff_indic(article, pos_words, neg_words, model):
     sentiment_vector = []
     for word in article:
-        token_pos = get_sentiment(word, pos_words, model)
-        token_neg = get_sentiment(word, neg_words, model)
-        if token_pos >= token_neg:
-            token = token_pos
-            if token < 0.40:
-                token = 0
-        else:
-            token = -1*token_neg
-            if token > -0.40:
-                token = 0 
+        token = get_word_polarity(word, pos_words, neg_words, model)
         sentiment_vector.append(token)
     return sentiment_vector
 
@@ -111,18 +102,32 @@ def word_gen(word_array, model, polarity, pos_words_dict, neg_words_dict):
 
 # Getting word level polarity, return a value between -1 and 1 which reflects  the polarity 
 def get_word_polarity(word, pos_words, neg_words, model):
-    token_pos = get_sentiment(word, pos_words, model)
-    token_neg = get_sentiment(word, neg_words, model)
+    # getting a set of absolute positive polar words 
+    pos_list = [i['word'] for i in pos_words]
+    pos_list = set(pos_list)
+    # getting a set of absolute negative polar words 
+    neg_list = [i['word'] for i in neg_words]
+    neg_list = set(neg_list)
 
-    if token_pos >= token_neg:
-        token = token_pos
-        if token < 0.40:
-            token = 0
+    if word in pos_list:
+        score = 0.9
+
+    elif word in neg_list: 
+        score = -0.9
+
     else:
-        token = -1*token_neg
-        if token > -0.40 :
-            token = 0 
-    return token
+        token_pos = get_sentiment(word, pos_words, model)
+        token_neg = get_sentiment(word, neg_words, model)
+
+        if token_pos >= token_neg:
+            score = token_pos
+            if score < 0.40:
+                score = 0
+        else:
+            score = -1*token_neg
+            if score > -0.40 :
+                score = 0 
+    return score
 
 # Loading polar words 
 def get_polar_words(filename):
@@ -155,3 +160,18 @@ def sentiment_coeff(article):
     if flip_polarity:
         sentiment_vector = [e * -1 for e in sentiment_vector]
     return sentiment_vector
+
+# Getting word polarity of english words 
+
+def get_word_polarity_en(word):
+    word_lemmatized = lemmatizer.lemmatize(word)
+    
+    if word_lemmatized in pos_words:
+        score = 0.9
+    elif word_lemmatized in neg_words:
+        score = -0.9
+    else:
+        score = TextBlob(word_lemmatized).polarity
+        if score < 0.75:
+            score = 0
+    return score
