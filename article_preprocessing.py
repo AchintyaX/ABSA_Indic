@@ -145,7 +145,8 @@ def load_dicts(filepath, lang_code):
     'kn':'Kannada', 
     'ur':'Urdu', 
     'bn':'Bangla', 
-    'te':'Telugu', 
+    'te':'Telugu',
+    'ta':'Tamil',
     'or':'Oriya', 
     'pa':'Punjabi'
     }
