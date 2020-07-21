@@ -4,6 +4,18 @@ import numpy as np
 from gensim.models.fasttext import FastText
 import nltk 
 from nltk.stem import WordNetLemmatizer
+from sentiment_config import *
+from article_preprocessing import load_dicts
+
+positive_polar_words_dicts = {}
+
+for key in positive_polar_words.keys():
+    positive_polar_words_dicts[key] = load_dicts(positive_polar_words[key], key)
+
+negative_polar_words_dicts = {}
+
+for key in negative_polar_words.keys():
+    negative_polar_words_dicts[key] = load_dicts(negative_polar_words[key], key)
 
 nltk.download('wordnet')
 
@@ -32,12 +44,12 @@ def term_frequency(article):
         term_vector.append(term_val)
     return term_vector
 
-def predict_sentiment(article, lang_code, model, pos_words, neg_words):
+def predict_sentiment(article, lang_code, model):
 	term_vector = term_frequency(article)
 	if lang_code == 'en':
 		senti_vector = sentiment_coeff(article)
-	if lang_code == 'hi':
-		senti_vector = get_senti_coeff_indic(article, pos_words, neg_words, model)
+	else:
+		senti_vector = get_senti_coeff_indic(article,lang_code, model)
 	term_vector = np.array(term_vector)
 	senti_vector = np.array(senti_vector)
 
@@ -53,10 +65,10 @@ def predict_sentiment(article, lang_code, model, pos_words, neg_words):
 	return num 
 # Getting the sentiment vectors of each sentence 
 
-def get_senti_coeff_indic(article, pos_words, neg_words, model):
+def get_senti_coeff_indic(article,lang_code, model):
     sentiment_vector = []
     for word in article:
-        token = get_word_polarity(word, pos_words, neg_words, model)
+        token = get_word_polarity(word,lang_code, model)
         sentiment_vector.append(token)
     return sentiment_vector
 
@@ -78,8 +90,12 @@ def get_sentiment(word, word_list, model):
     return  max_similarity
 
 # Getting similar words 
-def word_gen(word_array, model, polarity, pos_words_dict, neg_words_dict):
-	words = []
+'''
+def word_gen(word_array,lang_code, model, polarity):
+    words = []
+    
+    pos_words_dict = positive_polar_words_dicts[lang_code]
+    neg_words_dict = negative_polar_words_dicts[lang_code]
 
 	for i in word_array:
 		for word in model.wv.most_similar(i):
@@ -99,9 +115,37 @@ def word_gen(word_array, model, polarity, pos_words_dict, neg_words_dict):
 
 	return correct_words
 
+    '''
+def word_gen(word_array, lang_code, model, polarity):
+    words = []
+
+    pos_words_dict = positive_polar_words_dicts[lang_code]
+    neg_words_dict = negative_polar_words_dicts[lang_code]
+
+    for i in word_array:
+        for word in model.wv.most_similar(i):
+            words.append(word[0])
+
+    correct_words = []
+
+    if polarity == 1:
+        word_list = pos_words_dict
+    else:
+        word_list = neg_words_dict
+
+    for i in words:
+        if get_sentiment(i, word_list, model) >0.40 :
+            correct_words.append(i)
+
+    return correct_words
 
 # Getting word level polarity, return a value between -1 and 1 which reflects  the polarity 
-def get_word_polarity(word, pos_words, neg_words, model):
+def get_word_polarity(word,lang_code, model):
+
+    # loading the positive and negative words of a given language 
+    pos_words = positive_polar_words_dicts[lang_code]
+    neg_words = negative_polar_words_dicts[lang_code]
+
     # getting a set of absolute positive polar words 
     pos_list = [i['word'] for i in pos_words]
     pos_list = set(pos_list)
