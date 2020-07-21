@@ -90,32 +90,7 @@ def get_sentiment(word, word_list, model):
     return  max_similarity
 
 # Getting similar words 
-'''
-def word_gen(word_array,lang_code, model, polarity):
-    words = []
-    
-    pos_words_dict = positive_polar_words_dicts[lang_code]
-    neg_words_dict = negative_polar_words_dicts[lang_code]
 
-	for i in word_array:
-		for word in model.wv.most_similar(i):
-			words.append(word[0])
-
-	correct_words = []
-
-	if polarity == 1:
-		word_list = pos_words_dict
-
-	else:
-		word_list = neg_words_dict
-
-	for i in words: 
-		if get_sentiment(i, word_list, model) > 0.40:
-			correct_words.append(i)
-
-	return correct_words
-
-    '''
 def word_gen(word_array, lang_code, model, polarity):
     words = []
 
