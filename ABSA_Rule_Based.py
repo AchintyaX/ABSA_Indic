@@ -1,9 +1,12 @@
 import textblob 
 from textblob import TextBlob
-from article_preprocessing import tokenize_hin, spacy_tokenizer
+from article_preprocessing import tokenize_hin, spacy_tokenizer, remove_hin_stopwords
 import numpy as np
 from gensim.models.fasttext import FastText 
-from model import get_sentiment, get_word_polarity
+from model import get_sentiment, get_word_polarity, get_word_polarity_en
+from sentiment_config import *
+
+filepath = HINDI_STOPWORDS
 
 # used to find the location points of aspect term in the review
 # takes tokenized aspect term and article as input 
@@ -22,7 +25,7 @@ def aspect_term_location(aspect_term, article, lang_code):
 # pass pos_words and neg_words dictionaty list along with the FastText embeddings model when using Indian languages
 # pass the respective model and word lists for a given language.
 # The aspect term and sentence need to be tokenized 
-def word_distance_based_score(aspect_term, article, lang_code, pos_words=None, neg_words=None, model=None):
+def word_distance_based_score(aspect_term, article, lang_code, model=None):
 	aspect_locations = aspect_term_location(aspect_term, article, lang_code)
 
 	if len(aspect_locations) == 1:
@@ -39,9 +42,9 @@ def word_distance_based_score(aspect_term, article, lang_code, pos_words=None, n
 
 	for i in range(start_point):
 		if lang_code == 'en':
-			polarity = TextBlob(article[i]).polarity
+			polarity = get_word_polarity_en(article[i])
 		if lang_code =='hi':
-			polarity = get_word_polarity(article[i], pos_words, neg_words, model)
+			polarity = get_word_polarity(article[i],lang_code, model)
 		distance = i 
 		tot_polarity_start = tot_polarity_start + polarity*(distance/start_point)
 
@@ -50,9 +53,9 @@ def word_distance_based_score(aspect_term, article, lang_code, pos_words=None, n
 	end_dist = len(article) - 1 
 	for i in range(end_point+1, len(article)):
 		if  lang_code == 'en':
-			polarity = TextBlob(article[i]).polarity 
+			polarity = get_word_polarity_en(article[i])
 		if lang_code == 'hi':
-			polarity = get_word_polarity(article[i], pos_words, neg_words, model)
+			polarity = get_word_polarity(article[i], lang_code, model)
 		distance = end_dist - i
 		tot_polarity_end = tot_polarity_end + (distance/end_dist)*polarity
 
@@ -61,8 +64,7 @@ def word_distance_based_score(aspect_term, article, lang_code, pos_words=None, n
 	tot_polarity = tot_polarity_start + tot_polarity_end
 	return tot_polarity
 
-
-
+	
 # Function is used to find the final polarity of the aspect term in an article
 # Takes the aspect term, sentences and the language code as input
 # pass pos_words and neg_words dictionaty list along with the FastText embeddings model when using Indian languages
@@ -70,15 +72,17 @@ def word_distance_based_score(aspect_term, article, lang_code, pos_words=None, n
 # the aspect term should be tokenized 
 # the sentences mean that a whole article should be broken down into sentences using the sentence
 # segmentation 
-def aspect_polarity(aspect_term, sentences, lang_code, pos_words=None, neg_words=None, model=None):
+def aspect_polarity(aspect_term, sentences, lang_code, model=None):
     if lang_code == 'en':
         sentences = [spacy_tokenizer(i) for i in sentences]
     if lang_code == 'hi':
         sentences = [tokenize_hin(i) for i in sentences]
+        sentences = [remove_hin_stopwords(i, filepath) for i in sentences]
+        print(sentences)
     tot_polarity = 0
     for review in sentences:
         try:
-            polarity = word_distance_based_score(aspect_term, review, lang_code, pos_words=pos_words, neg_words=neg_words,model=model )
+            polarity = word_distance_based_score(aspect_term, review, lang_code, model=model )
             tot_polarity = tot_polarity + polarity
         except ValueError: # for handling sentences which don't have aspect term in the article 
             tot_polarity = tot_polarity + 0 
