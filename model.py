@@ -154,8 +154,8 @@ def get_polar_words(filename):
         words = set(f.read().splitlines())
     return words
 
-pos_words = get_polar_words("resources/pos_lemm.txt")
-neg_words = get_polar_words("resources/neg_lemm.txt")
+pos_words = get_polar_words(POS_ENG_WORDS)
+neg_words = get_polar_words(NEG_ENG_WORDS)
 
 
 # retrieving the sentiment vector
