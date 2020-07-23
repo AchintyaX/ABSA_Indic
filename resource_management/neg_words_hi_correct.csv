@@ -1,0 +1,660 @@
+POS,PosScore,NegScore,SynsetTerms,CorrectLabel,hindi
+a,0.0,0.75,unable,-1,असमर्थ
+a,0.0,0.875,rare,-1,दुर्लभ
+a,0.0,0.75,battered,-1,चकनाचूर
+a,0.0,0.75,unaccustomed,-1,अनभ्यस्त
+a,0.0,0.875,avirulent,-1,असंक्रामक
+a,0.0,0.75,nonadhesive,-1,nonadhesive
+a,0.0,0.75,ungummed,-1,वह गर्भवती है
+a,0.0,0.75,negative,-1,नकारात्मक
+a,0.125,0.875,dismissive,-1,खारिज
+a,0.0,0.75,acrophobic,-1,acrophobic
+a,0.0,0.75,agoraphobic,-1,एगोराफोबिक
+a,0.0,0.875,algophobic,-1,algophobic
+a,0.0,0.75,claustrophobic,-1,क्लॉस्टेरोफोबिया
+a,0.0,0.75,mysophobic,-1,mysophobic
+a,0.0,0.75,numb,-1,सुन्न
+a,0.0,0.75,xenophobic,-1,ज़नोफोबिक
+a,0.0,0.75,unagitated,-1,unagitated
+a,0.125,0.875,disagreeable,-1,अप्रिय
+a,0.0,0.75,dead,-1,मृत
+a,0.0,0.75,lifeless,-1,निष्प्राण
+a,0.0,0.875,resentful,-1,क्रोधित
+a,0.125,0.75,inappropriate,-1,अनुचित
+a,0.25,0.75,malapropos,-1,कुसमय
+a,0.0,0.75,aphasic,-1,वाक्यरोध संबंधी
+a,0.0,0.75,ashamed,-1,शर्मिंदा
+a,0.125,0.875,thunderous,-1,गरजनदार
+a,0.0,0.75,unconstitutional,-1,असंवैधानिक
+a,0.0,0.75,unconscious,-1,बेहोश
+a,0.0,0.75,unstratified,-1,unstratified
+a,0.0,0.75,fugly,-1,fugly
+a,0.0,0.75,unbanded,-1,unbanded
+a,0.0,0.75,maleficent,-1,नुक़सानदेह
+a,0.0,0.875,malevolent,-1,द्रोही
+a,0.125,0.75,venomed,-1,venomed
+a,0.0,0.875,vixenish,-1,झगड़ालू
+a,0.25,0.75,worst,-1,सबसे खराब
+a,0.0,0.75,worse,-1,और भी बुरा
+a,0.0,0.75,stormy,-1,तूफ़ानी
+a,0.0,0.75,dirty,-1,गंदा
+a,0.0,0.75,incapable,-1,असमर्थ
+a,0.0,0.75,uncompartmented,-1,uncompartmented
+a,0.0,0.75,slate-black,-1,स्लेट काला
+a,0.222,0.778,augean,-1,Augean
+a,0.0,0.75,dirty-faced,-1,गंदे का सामना करना पड़ा
+a,0.0,0.75,smudgy,-1,मैला
+a,0.0,0.75,unswept,-1,unswept
+a,0.0,0.75,unwashed,-1,मैला
+a,0.25,0.75,dirty,-1,गंदा
+a,0.0,0.75,confused,-1,उलझन में
+a,0.0,0.75,inclement,-1,कठोर
+a,0.0,0.75,stupid,-1,बेवकूफ
+a,0.0,0.75,uncousinly,-1,uncousinly
+a,0.0,0.75,fogbound,-1,fogbound
+a,0.25,0.75,unpublishable,-1,unpublishable
+a,0.0,0.875,comfortless,-1,असुविधाजनक
+a,0.0,0.75,uncomfortable,-1,असुविधाजनक
+a,0.0,0.75,uncommercial,-1,अव्यवसायिक
+a,0.25,0.75,unworkmanlike,-1,काम करनेवाला जैसा नहीं
+a,0.0,0.75,noncompetitive,-1,ग़ैर प्रतियोगी
+a,0.0,0.75,uncompetitive,-1,अप्रतिस्पर्धी
+a,0.0,0.75,uncommitted,-1,अशुद्ध
+a,0.0,0.75,afraid,-1,डरा हुआ
+a,0.0,0.75,confined,-1,सिमित
+a,0.125,0.75,unconquerable,-1,अजेय
+a,0.25,0.75,indiscernible,-1,अप्रत्यक्ष
+a,0.0,0.75,ravaging,-1,विनाशकारी
+a,0.0,0.75,unchallengeable,-1,असहनीय
+a,0.0,0.75,unargumentative,-1,unargumentative
+a,0.0,0.75,noncontentious,-1,noncontentious
+a,0.125,0.75,inconvenient,-1,असुविधाजनक
+a,0.0,0.75,awkward,-1,भद्दा
+a,0.0,0.75,unconventional,-1,अपरंपरागत
+a,0.0,0.75,conformist,-1,कंफ़मिस्ट
+a,0.0,0.75,unpersuasive,-1,unpersuasive
+a,0.0,0.75,raw,-1,कच्चा
+a,0.0,0.75,untoasted,-1,untoasted
+a,0.3,0.7,putrid,-1,सड़ा हुआ
+a,0.0,0.75,antiphlogistic,-1,सूजन घटानेवाली
+a,0.0,0.75,erroneous,-1,ग़लत
+a,0.125,0.75,fallacious,-1,ग़लत
+a,0.25,0.75,wrongheaded,-1,wrongheaded
+a,0.0,0.75,uncorrected,-1,uncorrected
+a,0.0,0.75,unremedied,-1,unremedied
+a,0.0,0.75,constipated,-1,कब्ज़
+a,0.0,0.75,overcredulous,-1,overcredulous
+a,0.0,0.75,incredulous,-1,विश्वास न होना
+a,0.0,0.875,censorious,-1,सख़्त
+a,0.0,0.75,uncritical,-1,हितैषी
+a,0.0,0.75,noncurrent,-1,noncurrent
+a,0.0,0.75,damaged,-1,क्षतिग्रस्त
+a,0.0,0.875,knocked-out,-1,पटक देना
+a,0.0,0.75,storm-beaten,-1,आंधी से फटा
+a,0.0,0.75,undatable,-1,undatable
+a,0.0,0.75,indelicate,-1,असभ्य
+a,0.0,0.75,undeclared,-1,पहले से न सोचा
+a,0.0,0.75,shallow,-1,उथला
+a,0.0,0.75,indefeasible,-1,अपरिहार्य
+a,0.0,0.75,recalcitrant,-1,आज्ञा न माननेवाला
+a,0.0,0.75,nonresistant,-1,nonresistant
+a,0.0,0.75,infrangible,-1,अक्षय
+a,0.0,0.75,peremptory,-1,आज्ञसूचक
+a,0.0,0.75,undemonstrative,-1,नमूने का नहीं
+a,0.0,0.875,undeniable,-1,निर्विवाद
+a,0.0,0.75,dependent,-1,आश्रित
+a,0.0,0.75,helpless,-1,मजबूर
+a,0.125,0.75,undescriptive,-1,undescriptive
+a,0.125,0.75,arduous,-1,कठिन
+a,0.125,0.875,fractious,-1,झगड़ालू
+a,0.0,0.875,thorny,-1,कांटेदार
+a,0.0,0.875,troublesome,-1,परेशानी
+a,0.0,0.75,undiplomatic,-1,अकूटनैतिक
+a,0.0,0.75,alienating,-1,अलगाव की भावना
+a,0.0,0.75,indirect,-1,अप्रत्यक्ष
+a,0.0,0.75,promiscuous,-1,अनेक
+a,0.125,0.75,unselective,-1,unselective
+a,0.25,0.75,indistinct,-1,अस्पष्ट
+a,0.0,0.75,indiscrete,-1,उदासीनता से
+a,0.0,0.75,untheatrical,-1,untheatrical
+a,0.0,0.75,poisonous,-1,विषैला
+a,0.25,0.75,uneducated,-1,अशिक्षित
+a,0.0,0.75,defunct,-1,मृत
+a,0.0,0.75,sisyphean,-1,Sisyphean
+a,0.0,0.75,unemployable,-1,बेरोजगार
+a,0.0,0.75,unburdened,-1,निर्भार
+a,0.25,0.75,unexportable,-1,unexportable
+a,0.125,0.75,remittent,-1,प्रेषण का
+a,0.0,0.75,nostalgic,-1,उदासीन
+a,0.0,0.75,homesick,-1,घर के बाहर रहने से खिन्न
+a,0.0,0.75,unquestionable,-1,निर्विवाद
+a,0.0,0.75,contemptible,-1,घिनौना
+a,0.0,0.75,unethical,-1,अनैतिक
+a,0.0,0.75,patchy,-1,विचित्र
+a,0.0,0.875,unparallel,-1,unparallel
+a,0.25,0.75,unexchangeable,-1,unexchangeable
+a,0.0,0.75,nonexistent,-1,अस्तित्वहीन
+a,0.0,0.75,nonextant,-1,nonextant
+a,0.25,0.75,unexpendable,-1,unexpendable
+a,0.0,0.75,fingerless,-1,fingerless
+a,0.0,0.875,inextinguishable,-1,सदा जलानेवाला
+a,0.125,0.75,untrue,-1,बेईमान
+a,0.0,0.75,unfastidious,-1,unfastidious
+a,0.125,0.75,blubbery,-1,blubbery
+a,0.0,0.75,infelicitous,-1,ख़राब
+a,0.0,1.0,unfortunate,-1,दुर्भाग्य
+a,0.0,0.875,barren,-1,बंजर
+a,0.0,0.75,unhewn,-1,रूढ़
+a,0.25,0.75,unfit,-1,अयोग्य
+a,0.0,0.75,unsuitable,-1,अनुपयुक्त
+a,0.0,0.75,adventive,-1,adventive
+a,0.0,0.75,unforgiving,-1,माफ
+a,0.0,0.875,unfortunate,-1,दुर्भाग्य
+a,0.0,1.0,abject,-1,अधम
+a,0.0,0.75,niffy,-1,niffy
+a,0.3,0.7,putrid-smelling,-1,सड़ा हुआ महक
+a,0.0,0.75,unfree,-1,unfree
+a,0.0,0.75,addled,-1,सड़ाया हुआ
+a,0.0,0.875,day-old,-1,दिन पुरानी
+a,0.0,0.75,unfriendly,-1,अमित्र
+a,0.0,0.875,unfriendly,-1,अमित्र
+a,0.0,0.75,unfruitful,-1,unfruitful
+a,0.0,0.75,sperm-filled,-1,शुक्राणु से भरे
+a,0.0,0.75,nonfunctional,-1,अक्रिय
+a,0.0,0.75,nonproprietary,-1,Nonproprietary
+a,0.0,0.875,base,-1,आधार
+a,0.0,0.75,pseudo,-1,मिथ्या
+a,0.125,0.875,synthetic,-1,कृत्रिम
+a,0.0,0.75,no-go,-1,नही जाओ
+a,0.125,0.75,hopeless,-1,निराशाजनक
+a,0.0,0.875,horrid,-1,भयंकर
+a,0.0,0.875,ill,-1,बीमार
+a,0.222,0.778,mediocre,-1,औसत दर्जे का
+a,0.0,0.75,naughty,-1,नटखट
+a,0.125,0.875,negative,-1,नकारात्मक
+a,0.0,0.875,poor,-1,गरीब
+a,0.0,0.875,swingeing,-1,ताक़तवर
+a,0.0,0.875,uncool,-1,uncool
+a,0.222,0.778,unsuitable,-1,अनुपयुक्त
+a,0.0,0.875,evil,-1,बुराई
+a,0.0,0.75,bad,-1,खराब
+a,0.0,0.75,evil-minded,-1,दुष्टात्मा
+a,0.0,0.875,ill-natured,-1,बद
+a,0.0,0.875,churlish,-1,अक्खड़
+a,0.125,0.875,disagreeable,-1,अप्रिय
+a,0.25,0.75,churlish,-1,अक्खड़
+a,0.0,0.75,fulminant,-1,एकाएक बढ़ानेवाला
+a,0.0,0.75,incorrect,-1,ग़लत
+a,0.25,0.75,appreciative,-1,सराहना
+a,0.0,0.75,unappreciative,-1,unappreciative
+a,0.0,0.75,unhappy,-1,अप्रसन्न
+a,0.0,0.875,abusive,-1,अपमानजनक
+a,0.0,0.75,ill,-1,बीमार
+a,0.125,0.875,unhealthy,-1,बीमार
+a,0.25,0.75,inoperable,-1,बेकार
+a,0.0,0.75,unhealthy,-1,बीमार
+a,0.0,0.875,angry,-1,गुस्सा
+a,0.0,0.75,bloodshot,-1,रक्तमय
+a,0.0,0.75,caseous,-1,किलाटी
+a,0.0,0.875,inflamed,-1,सूजन
+a,0.0,0.75,inflammatory,-1,भड़काऊ
+a,0.0,0.75,sore-eyed,-1,गले में आंखों
+a,0.0,0.875,varicose,-1,वैरिकाज़
+a,0.0,0.75,light-duty,-1,मामूली कर्त्तव्य
+a,0.0,0.875,harsh,-1,कठोर
+a,0.0,0.75,low-level,-1,निम्न स्तर
+a,0.0,0.75,nonimitative,-1,nonimitative
+a,0.0,0.75,yellow,-1,पीला
+a,0.0,0.75,hopeless,-1,निराशाजनक
+a,0.0,0.75,insoluble,-1,अघुलनशील
+a,0.0,0.75,desolate,-1,उजाड़
+a,0.0,0.75,torrid,-1,गरम
+a,0.0,0.75,cold,-1,सर्दी
+a,0.0,0.75,cold,-1,सर्दी
+a,0.0,0.75,inhumane,-1,अमानवीय
+a,0.0,0.75,disinclined,-1,विमुख
+a,0.0,0.75,afraid,-1,डरा हुआ
+a,0.0,0.75,stygian,-1,Stygian
+a,0.125,0.75,punishable,-1,दंडनीय
+a,0.0,0.75,undesigned,-1,नाहक
+a,0.0,0.75,unsmoothed,-1,unsmoothed
+a,0.0,0.75,anisotropic,-1,अनिसोट्रोपिक
+a,0.125,0.75,sad,-1,अभी
+a,0.0,0.75,bittersweet,-1,भावभीनी
+a,0.0,0.75,sorrowful,-1,उदास
+a,0.0,0.875,bitter,-1,कड़वा
+a,0.0,0.875,lugubrious,-1,शोकाकुल
+a,0.125,0.75,joyless,-1,उदास
+a,0.0,0.75,unsmiling,-1,unsmiling
+a,0.125,0.75,wrongful,-1,गलत तरीके से
+a,0.0,0.75,watertight,-1,निर्विवाद
+a,0.0,0.75,unlisted,-1,गैर-सूचीबद्ध
+a,0.0,0.75,unextended,-1,unextended
+a,0.0,0.75,lost,-1,खो गया
+a,0.0,0.75,stray,-1,भटका हुआ
+a,0.0,0.75,straying,-1,भटक
+a,0.0,0.75,pale,-1,पीला
+a,0.0,0.75,apotropaic,-1,apotropaic
+a,0.0,0.75,scarred,-1,आहत
+a,0.0,0.75,unbranded,-1,बिना ब्रांड
+a,0.25,0.75,unfeminine,-1,unfeminine
+a,0.0,0.75,unconcerned,-1,उदासीन
+a,0.0,0.75,unsoldierly,-1,unsoldierly
+a,0.0,0.75,immobile,-1,स्तब्ध
+a,0.0,0.75,unmodified,-1,असंशोधित
+a,0.0,0.75,unadapted,-1,unadapted
+a,0.0,0.75,univalent,-1,univalent
+a,0.125,0.75,immoral,-1,अनैतिक
+a,0.0,0.75,factitious,-1,नक़ली
+a,0.0,0.75,supernatural,-1,अलौकिक
+a,0.0,0.875,grotty,-1,grotty
+a,0.0,0.75,subnormal,-1,सामान्य से कम
+a,0.0,0.875,paranormal,-1,असाधारण
+a,0.0,0.75,innocuous,-1,अहानिकर
+a,0.0,0.75,unoccupied,-1,खुला हुआ
+a,0.0,0.75,offensive,-1,अपमानजनक
+a,0.0,0.875,creepy,-1,डरावने
+a,0.0,1.0,scrimy,-1,scrimy
+a,0.0,0.875,verminous,-1,घिनौना
+a,0.222,0.778,odoriferous,-1,सुगंधित
+a,0.0,0.75,unofficial,-1,अनौपचारिक
+a,0.0,0.75,unestablished,-1,unestablished
+a,0.0,0.75,off-street,-1,प्रधान मार्ग पर
+a,0.0,0.75,off-line,-1,बंद लाइन
+a,0.0,0.75,off,-1,बंद
+a,0.0,0.75,inconvenient,-1,असुविधाजनक
+a,0.0,0.75,unopposed,-1,निर्विरोध
+a,0.0,0.75,unmethodical,-1,unmethodical
+a,0.0,0.75,artificial,-1,कृत्रिम
+a,0.0,0.75,stunning,-1,चौका देने वाला
+a,0.0,0.875,underivative,-1,underivative
+a,0.0,0.75,unoriginal,-1,नक़ल करनेवाला
+a,0.0,0.75,slavish,-1,कमीना
+a,0.125,0.75,painful,-1,दर्दनाक
+a,0.0,0.75,traumatic,-1,दर्दनाक
+a,0.0,0.75,painless,-1,दर्दरहित
+a,0.0,0.875,unpainted,-1,रंगी
+a,0.0,0.75,unoiled,-1,Unoiled
+a,0.0,0.75,unpaintable,-1,unpaintable
+a,0.125,0.75,unpalatable,-1,कड़ा
+a,0.0,0.875,unforbearing,-1,unforbearing
+a,0.0,0.75,loose,-1,ढीला
+a,0.0,0.75,unpaved,-1,कच्ची
+a,0.0,0.75,unpeaceful,-1,unpeaceful
+a,0.0,0.875,unpeaceable,-1,unpeaceable
+a,0.0,0.75,blind,-1,अंधा
+a,0.125,0.75,imperfect,-1,अपूर्ण
+a,0.0,0.75,inadmissible,-1,अस्वीकार्य
+a,0.125,0.75,unpermissive,-1,unpermissive
+a,0.0,0.75,perplexed,-1,विकल
+a,0.0,0.75,unperplexed,-1,unperplexed
+a,0.0,0.75,impenetrable,-1,अभेद्य
+a,0.0,0.75,rot-resistant,-1,सड़ांध के लिए प्रतिरोधी
+a,0.0,0.75,nonpsychoactive,-1,nonpsychoactive
+a,0.125,0.875,harsh,-1,कठोर
+a,0.0,0.875,ungrateful,-1,एहसान फरामोश
+a,0.0,0.75,unhappy,-1,अप्रसन्न
+a,0.125,0.75,displeased,-1,अप्रसन्न
+a,0.0,0.75,off-putting,-1,ऑफ डाल
+a,0.0,0.75,raw,-1,कच्चा
+a,0.0,0.875,imponderable,-1,हलका
+a,0.0,0.875,negative,-1,नकारात्मक
+a,0.125,0.75,neutral,-1,तटस्थ
+a,0.0,0.75,impossible,-1,असंभव
+a,0.0,0.875,out,-1,बाहर
+a,0.0,0.75,unfunctional,-1,unfunctional
+a,0.0,0.875,cretinous,-1,मूढ़ व्यक्ति
+a,0.0,0.75,delayed,-1,विलंबित
+a,0.0,0.75,secondary,-1,माध्यमिक
+a,0.0,0.75,nonpublic,-1,गैर सार्वजनिक
+a,0.0,0.75,lay,-1,रखना
+a,0.125,0.75,lean,-1,दुबला
+a,0.0,0.75,unremunerative,-1,अलाभकारी
+a,0.0,0.75,out-of-the-way,-1,रास्ते से बाहर
+a,0.0,0.75,unimpeachable,-1,ज़ाहिर
+a,0.0,0.75,unquiet,-1,अशांत
+a,0.0,0.75,flat-footed,-1,चौरस चरण का
+a,0.0,0.75,unrealistic,-1,अवास्तविक
+a,0.0,0.75,unprocessed,-1,असंसाधित
+a,0.0,0.75,untreated,-1,अनुपचारित
+a,0.0,0.75,raw,-1,कच्चा
+a,0.0,0.875,untreated,-1,अनुपचारित
+a,0.0,0.75,assimilative,-1,सदृशीकरणक्षम
+a,0.0,0.75,hostile,-1,शत्रुतापूर्ण
+a,0.125,0.75,inconsistent,-1,असंगत
+a,0.0,0.75,unresponsive,-1,अनुत्तरदायी
+a,0.0,0.75,unexpansive,-1,unexpansive
+a,0.0,0.75,moneyless,-1,पैसे बिना
+a,0.0,0.75,insolvent,-1,दिवालिया
+a,0.125,0.75,wrong,-1,गलत
+a,0.0,0.75,out,-1,बाहर
+a,0.0,0.75,manic-depressive,-1,उन्मत्त अवसादग्रस्तता
+a,0.0,0.75,paranoid,-1,पागल
+a,0.0,0.75,psychotic,-1,मानसिक
+a,0.25,0.75,sardonic,-1,तिरस्कारपूर्ण
+a,0.125,0.75,saturnine,-1,सीसे का
+a,0.0,0.75,unacceptable,-1,गवारा नहीं
+a,0.0,0.75,unconscientious,-1,unconscientious
+a,0.0,0.75,fail-safe,-1,सुरक्षा कम होना
+a,0.25,0.75,insidious,-1,कपटी
+a,0.0,0.75,junior,-1,कनिष्ठ
+a,0.0,0.75,insensitive,-1,सुन्न
+a,0.0,0.75,frivolous,-1,तुच्छ
+a,0.0,0.875,broken-down,-1,टूटा
+a,0.0,0.75,inoperable,-1,बेकार
+a,0.0,0.75,nonresident,-1,अनिवासी
+a,0.0,0.75,nonnomadic,-1,nonnomadic
+a,0.125,0.875,lecherous,-1,भ्रष्टाचरण
+a,0.0,0.75,unformed,-1,बेडौल
+a,0.125,0.75,FALSE,-1,असत्य
+a,0.125,0.875,feigned,-1,बहाने
+a,0.0,0.75,unsized,-1,अनवधि
+a,0.0,0.75,unsorted,-1,अवर्गीकृत
+a,0.0,0.75,unshuttered,-1,unshuttered
+a,0.0,0.75,unsociable,-1,एकांतप्रिय
+a,0.0,0.75,ungregarious,-1,ungregarious
+a,0.0,0.75,unsold,-1,बेचने का नहीं
+a,0.0,0.75,unsound,-1,अस्वस्थ
+a,0.0,0.875,unsound,-1,अस्वस्थ
+a,0.125,0.75,nonstandard,-1,गैरमानक
+a,0.125,0.875,nonstandard,-1,गैरमानक
+a,0.0,0.75,nonnormative,-1,nonnormative
+a,0.0,0.75,nonstandard,-1,गैरमानक
+a,0.0,0.75,unstressed,-1,निर्बल
+a,0.25,0.75,puny,-1,नन्हा
+a,0.0,0.875,insubordinate,-1,उद्धत
+a,0.125,0.875,indifferent,-1,उदासीन
+a,0.0,0.875,inferior,-1,कम
+a,0.222,0.778,low-grade,-1,निम्न श्रेणी
+a,0.0,0.75,second-class,-1,द्रितीय श्रेणी
+a,0.0,0.75,unsupported,-1,असमर्थित
+a,0.0,0.75,unresponsive,-1,अनुत्तरदायी
+a,0.0,0.75,unimpressionable,-1,unimpressionable
+a,0.0,0.75,soured,-1,कड़वाहट
+a,0.125,0.75,unsuspected,-1,पहले से न सोचा
+a,0.0,0.75,unswept,-1,unswept
+a,0.0,0.875,unsympathetic,-1,कुरूप
+a,0.125,0.75,temperate,-1,शीतोष्ण
+a,0.0,0.75,unkempt,-1,मैला
+a,0.125,0.75,ungroomed,-1,ungroomed
+a,0.125,0.75,intolerant,-1,असहिष्णु
+a,0.0,0.75,intestate,-1,बिना वसीयतनामा मारा हुआ
+a,0.0,0.75,tough,-1,कठोर
+a,0.0,0.75,intractable,-1,असभ्य
+a,0.0,0.75,unmalleable,-1,unmalleable
+a,0.0,0.875,troubled,-1,तंग किया
+a,0.0,0.75,fraught,-1,भरा हुआ
+a,0.0,0.75,FALSE,-1,असत्य
+a,0.0,0.75,mendacious,-1,मिथ्या
+a,0.0,0.75,untrue,-1,बेईमान
+a,0.0,0.875,undivided,-1,अविभाज्य
+a,0.0,0.75,dystopian,-1,मनहूस
+a,0.0,0.75,invalid,-1,अमान्य
+a,0.0,0.75,FALSE,-1,असत्य
+a,0.3,0.7,manky,-1,manky
+a,0.0,0.875,occult,-1,रहस्यमय
+a,0.0,0.75,unwilling,-1,तैयार नहीं
+a,0.0,0.75,indefensible,-1,असमर्थनीय
+a,0.0,0.75,unwelcome,-1,अनिष्ट
+a,0.0,0.75,consumptive,-1,तपेदिक़-संबंधी
+a,0.0,0.75,dyspeptic,-1,अपच संबंधी
+a,0.0,0.75,palsied,-1,काँपता हुआ
+a,0.0,0.875,scrofulous,-1,गंडमाला-संबंधी
+a,0.0,0.875,upset,-1,परेशान
+a,0.125,0.75,unwholesome,-1,बेकार
+a,0.0,0.75,unwilling,-1,तैयार नहीं
+a,0.0,0.75,battered,-1,चकनाचूर
+a,0.0,0.75,benign,-1,सौम्य
+a,0.0,0.75,immunodeficient,-1,immunodeficient
+a,0.0,0.75,anasarcous,-1,anasarcous
+a,0.0,0.75,immunocompromised,-1,प्रतिरक्षा में अक्षम
+a,0.125,0.75,aversive,-1,प्रतिकूल
+a,0.0,0.75,nonenzymatic,-1,nonenzymatic
+a,0.0,0.75,tetanic,-1,धनुस्तंभीय
+a,0.0,0.75,tetanic,-1,धनुस्तंभीय
+a,0.0,0.75,unposed,-1,unposed
+n,0.0,0.75,conquest,-1,विजय
+n,0.0,0.75,hyperemesis,-1,हाइपरमेसिस
+n,0.0,0.875,worst,-1,सबसे खराब
+n,0.0,0.75,bronchospasm,-1,श्वसनी-आकर्ष
+n,0.0,0.75,palliation,-1,उपशमन
+n,0.0,0.75,burn,-1,जलाना
+n,0.0,0.875,overexertion,-1,overexertion
+n,0.0,1.0,abduction,-1,अपहरण
+n,0.0,0.75,scatophagy,-1,scatophagy
+n,0.0,0.75,underproduction,-1,उत्पादन क्षमता
+n,0.0,0.75,armageddon,-1,आर्मागेडन
+n,0.0,0.75,misdeal,-1,अशुद्ध व्यवहार करना
+n,0.0,0.75,entrapment,-1,फंसाने
+n,0.0,0.75,rotavirus,-1,रोटावायरस
+n,0.0,0.75,rockweed,-1,rockweed
+n,0.125,0.75,kitsch,-1,किच
+n,0.0,0.875,lenitive,-1,मृदु
+n,0.0,0.75,stinker,-1,बदबू आ रही है
+n,0.0,0.875,disagreeableness,-1,disagreeableness
+n,0.125,0.875,levity,-1,छिछोरापन
+n,0.125,0.75,unapproachability,-1,unapproachability
+n,0.0,0.875,unfriendliness,-1,unfriendliness
+n,0.25,0.75,uncongeniality,-1,uncongeniality
+n,0.0,0.875,unneighborliness,-1,unneighborliness
+n,0.0,0.75,ugliness,-1,कुरूपता
+n,0.125,0.75,unpleasingness,-1,unpleasingness
+n,0.125,0.75,incompatibility,-1,बेजोड़ता
+n,0.125,0.75,inconvenience,-1,असुविधाजनक
+n,0.125,0.75,shiftiness,-1,मक्कारी
+n,0.0,0.75,granite,-1,ग्रेनाइट
+n,0.125,0.875,disagreeableness,-1,disagreeableness
+n,0.125,0.75,nastiness,-1,गंदगी
+n,0.0,0.75,beastliness,-1,क्रूरता
+n,0.0,0.875,unnaturalness,-1,unnaturalness
+n,0.125,0.75,inadmissibility,-1,अमान्यता
+n,0.125,0.75,usualness,-1,usualness
+n,0.0,0.75,nonconformity,-1,अवज्ञा
+n,0.125,0.75,inaccuracy,-1,अशुद्धता
+n,0.0,0.875,illegitimacy,-1,हरामीपन
+n,0.0,0.75,illicitness,-1,illicitness
+n,0.125,0.75,elusiveness,-1,छल
+n,0.25,0.75,immorality,-1,अनैतिकता
+n,0.125,0.75,wrongness,-1,wrongness
+n,0.125,0.75,dangerousness,-1,dangerousness
+n,0.25,0.75,incorruptibility,-1,अदूषणीयता
+n,0.125,0.75,dishonesty,-1,बेईमानी
+n,0.0,0.75,lightheadedness,-1,चक्कर
+n,0.125,0.75,indelicacy,-1,असभ्यता
+n,0.125,0.75,indecency,-1,अभद्रता
+n,0.0,0.75,staleness,-1,बासांपन
+n,0.0,0.875,hardness,-1,कठोरता
+n,0.0,0.75,dissonance,-1,मतभेद
+n,0.0,0.875,vulnerability,-1,भेद्यता
+n,0.125,0.75,tardiness,-1,मंदी
+n,0.0,0.75,evil,-1,बुराई
+n,0.0,0.75,disadvantage,-1,हानि
+n,0.0,0.875,penalty,-1,दंड
+n,0.125,0.75,inessentiality,-1,inessentiality
+n,0.25,0.75,defensibility,-1,defensibility
+n,0.0,0.75,resistance,-1,प्रतिरोध
+n,0.125,0.75,snootiness,-1,snootiness
+n,0.0,0.75,cholecystokinin,-1,cholecystokinin
+n,0.125,0.75,stupidity,-1,मूर्खता
+n,0.0,0.75,feeblemindedness,-1,feeblemindedness
+n,0.0,0.75,insensibility,-1,असंवेदनशीलता
+n,0.125,0.75,perplexity,-1,विकलता
+n,0.0,0.75,hydra,-1,हीड्रा
+n,0.0,0.75,pisser,-1,पेशाब
+n,0.0,0.75,pruritus,-1,खुजली
+n,0.0,0.875,pill,-1,गोली
+n,0.0,0.75,kink,-1,गुत्थी
+n,0.0,0.75,casuistry,-1,कैस्युइस्ट्री
+n,0.0,0.75,reprobation,-1,नीचता
+n,0.125,0.75,unfairness,-1,अनौचित्य
+n,0.0,0.75,stricture,-1,निंदा
+n,0.0,0.75,reproach,-1,तिरस्कार
+n,0.0,0.875,canard,-1,बत्तख
+n,0.0,0.75,threat,-1,धमकी
+n,0.0,0.875,excoriation,-1,त्वकछेद
+n,0.0,1.0,worst,-1,सबसे खराब
+n,0.0,0.75,accident,-1,दुर्घटना
+n,0.0,0.75,onslaught,-1,हमला
+n,0.0,0.75,knock,-1,दस्तक
+n,0.0,0.75,resolution,-1,संकल्प
+n,0.0,0.75,fire,-1,आग
+n,0.0,0.75,wistfulness,-1,wistfulness
+n,0.0,0.875,weakness,-1,दुर्बलता
+n,0.0,0.75,mysophilia,-1,mysophilia
+n,0.125,0.75,creepy-crawlies,-1,रेंगकर डराने वाला
+n,0.0,0.75,unconcern,-1,उदासीनता
+n,0.0,0.75,shame,-1,शर्म की बात है
+n,0.125,0.75,conscience,-1,चेतना
+n,0.125,0.875,levity,-1,छिछोरापन
+n,0.25,0.75,sensibility,-1,संवेदनशीलता
+n,0.125,0.75,unrest,-1,अशांति
+n,0.0,0.75,hysteria,-1,हिस्टीरिया
+n,0.125,0.75,anxiety,-1,चिंता
+n,0.0,0.875,dolefulness,-1,dolefulness
+n,0.125,0.75,melancholy,-1,उदासी
+n,0.125,0.75,heavyheartedness,-1,heavyheartedness
+n,0.125,0.75,misery,-1,कष्ट
+n,0.0,0.75,helplessness,-1,बेबसी
+n,0.125,0.75,self-pity,-1,स्वंय पर दया
+n,0.0,0.75,dysphoria,-1,dysphoria
+n,0.125,0.875,moodiness,-1,moodiness
+n,0.0,0.875,plonk,-1,plonk
+n,0.0,0.75,gridlock,-1,ग्रिडलॉक
+n,0.0,0.75,ghetto,-1,यहूदी बस्ती
+n,0.0,0.75,aphasic,-1,वाक्यरोध संबंधी
+n,0.0,0.75,asthmatic,-1,दमे का रोगी
+n,0.0,0.75,casualty,-1,दुर्घटना
+n,0.0,0.75,choker,-1,गला घोंटनेवाला
+n,0.0,0.75,dastard,-1,dastard
+n,0.0,0.875,hobbledehoy,-1,बेडौल किशोर
+n,0.0,0.75,inferior,-1,कम
+n,0.0,0.75,jerry-builder,-1,जेरी निर्माता
+n,0.0,0.75,underdog,-1,अंडरडॉग
+n,0.0,1.0,motormouth,-1,मोटर मुंह
+n,0.0,0.875,patzer,-1,बड़ी भूल
+n,0.0,0.75,seducer,-1,प्रलोभक
+n,0.0,0.75,third-rater,-1,तीसरे दर निर्धारित करने वाला
+n,0.0,0.75,torturer,-1,कष्ट पहुंचाना
+n,0.0,0.75,yenta,-1,yenta
+n,0.0,0.75,gall,-1,यह
+n,0.0,0.75,accumulation,-1,संचय
+n,0.0,0.875,earthquake,-1,भूकंप
+n,0.0,0.75,insomnia,-1,अनिद्रा
+n,0.0,0.75,anoxia,-1,अनॉक्सिता
+n,0.125,0.75,dysphagia,-1,निगलने में कठिनाई
+n,0.0,0.875,dysuria,-1,पेशाब में जलन
+n,0.0,0.75,dystrophy,-1,कुपोषण
+n,0.0,0.875,invalidism,-1,invalidism
+n,0.0,0.75,amyloidosis,-1,amyloidosis
+n,0.0,0.75,neurasthenia,-1,नसों की दुर्बलता
+n,0.0,0.75,gingivitis,-1,मसूड़े की सूजन
+n,0.0,0.75,insufficiency,-1,कमी
+n,0.0,0.75,glomerulonephritis,-1,स्तवकवृक्कशोथ
+n,0.0,0.75,hypothyroidism,-1,हाइपोथायरायडिज्म
+n,0.0,0.75,diphtheria,-1,डिप्थीरिया
+n,0.0,0.75,pneumonia,-1,न्यूमोनिया
+n,0.0,0.75,abetalipoproteinemia,-1,abetalipoproteinemia
+n,0.0,0.75,hypobetalipoproteinemia,-1,hypobetalipoproteinemia
+n,0.0,0.75,lysinemia,-1,lysinemia
+n,0.0,0.75,thrombasthenia,-1,thrombasthenia
+n,0.125,0.75,tyrosinemia,-1,tyrosinemia
+n,0.0,0.75,angina,-1,एनजाइना
+n,0.0,0.875,blain,-1,फोड़ा
+n,0.0,0.75,cystitis,-1,मूत्राशयशोध
+n,0.0,0.75,malnutrition,-1,कुपोषण
+n,0.0,0.75,kwashiorkor,-1,Kwashiorkor
+n,0.125,0.75,myopathy,-1,पेशीविकृति
+n,0.0,0.75,erythema,-1,पर्विल
+n,0.0,0.75,livedo,-1,livedo
+n,0.0,0.75,granuloma,-1,ग्रेन्युलोमा
+n,0.0,0.75,arteritis,-1,धमनीशोथ
+n,0.0,0.875,blepharitis,-1,ब्लेफेराइटिस
+n,0.0,0.75,sprain,-1,मोच
+n,0.0,0.875,bubo,-1,Bubo
+n,0.0,0.875,throe,-1,दम तोड़ना
+n,0.0,0.75,dysmenorrhea,-1,कष्टार्तव
+n,0.125,0.75,odynophagia,-1,निगलने
+n,0.0,0.75,ulalgia,-1,ulalgia
+n,0.0,0.75,cholangitis,-1,पित्तवाहिनीशोथ
+n,0.0,0.75,cholecystitis,-1,पित्ताशय
+n,0.0,0.875,diverticulitis,-1,विपुटीशोथ
+n,0.0,0.75,endarteritis,-1,अन्तर्धमनीशोथ
+n,0.0,0.75,epididymitis,-1,epididymitis
+n,0.0,0.75,gastritis,-1,जठरशोथ
+n,0.0,0.75,keratitis,-1,स्वच्छपटलशोथ
+n,0.0,0.75,oophoritis,-1,oophoritis
+n,0.0,0.875,orchitis,-1,orchitis
+n,0.0,0.75,pancreatitis,-1,अग्नाशयशोथ
+n,0.0,0.875,prostatitis,-1,prostatitis
+n,0.0,0.75,spondylitis,-1,स्पॉन्डिलाइटिस
+n,0.0,0.75,ulitis,-1,ulitis
+n,0.0,0.75,ureteritis,-1,ureteritis
+n,0.0,0.75,vesiculitis,-1,vesiculitis
+n,0.0,0.75,automysophobia,-1,automysophobia
+n,0.0,0.75,encopresis,-1,encopresis
+n,0.125,0.75,melancholia,-1,विषाद
+n,0.0,0.75,paranoia,-1,पागलपन
+n,0.0,0.75,bitch,-1,कुतिया
+n,0.0,0.75,wreck,-1,जहाज के मलबे
+n,0.0,0.875,throe,-1,दम तोड़ना
+n,0.125,0.75,cleanness,-1,पवित्रता
+n,0.125,0.75,porphyria,-1,पोरफाइरिया
+n,0.0,0.75,ergotism,-1,ठोंठी
+n,0.0,0.75,resistance,-1,प्रतिरोध
+n,0.0,0.75,danger,-1,खतरा
+n,0.125,0.75,astasia,-1,astasia
+n,0.0,0.75,sequela,-1,शागिर्दी
+n,0.0,0.75,analgesia,-1,व्यथा का अभाव
+n,0.0,0.75,urethritis,-1,मूत्रमार्गशोथ
+n,0.0,0.75,oligospermia,-1,अल्पशुक्राणुता
+n,0.0,0.75,tenesmus,-1,ऐंठन
+n,0.0,0.75,gum-lac,-1,गम-लाख
+r,0.0,0.75,negatively,-1,नकारात्मक
+r,0.125,0.75,amiss,-1,अनुचित
+r,0.0,0.75,badly,-1,बुरी तरह
+r,0.125,0.75,badly,-1,बुरी तरह
+r,0.0,0.875,worst,-1,सबसे खराब
+r,0.0,0.75,indirectly,-1,परोक्ष रूप से
+r,0.0,0.875,hard,-1,मुश्किल
+v,0.0,0.75,scowl,-1,भ्रूभंग
+v,0.25,0.75,abort,-1,गर्भपात
+v,0.125,0.75,abort,-1,गर्भपात
+v,0.0,0.75,inflame,-1,भड़काना
+v,0.0,0.875,inflame,-1,भड़काना
+v,0.0,0.75,have,-1,है
+v,0.0,0.75,obstipate,-1,obstipate
+v,0.0,0.75,suffer,-1,भुगतना
+v,0.0,0.875,ail,-1,फिर से
+v,0.0,0.75,frost,-1,ठंढ
+v,0.0,0.75,damage,-1,क्षति
+v,0.0,0.75,smut,-1,मैल
+v,0.25,0.75,kill,-1,मार
+v,0.0,0.75,bloat,-1,ब्लोट
+v,0.0,0.75,putrefy,-1,भ्रष्टाचार हो जाना
+v,0.0,0.875,curdle,-1,जमाना
+v,0.0,0.875,foul,-1,बेईमानी से
+v,0.0,0.75,cleanse,-1,शुद्ध
+v,0.0,0.75,damage,-1,क्षति
+v,0.0,0.875,disapprove,-1,अस्वीकार करना
+v,0.0,0.875,deny,-1,मना
+v,0.0,0.875,repudiate,-1,परित्याग करना
+v,0.0,0.875,impugn,-1,बहस करना
+v,0.25,0.75,whoop,-1,ललकार
+v,0.0,0.75,speculate,-1,कल्पना करना
+v,0.0,0.875,out-herod,-1,बाहर हेरोदेस
+v,0.0,0.75,invade,-1,पर आक्रमण
+v,0.125,0.75,lacerate,-1,फाड़ना
+v,0.0,0.75,suffer,-1,भुगतना
+v,0.0,0.75,enrage,-1,क्रुद्ध
+v,0.0,0.75,mourn,-1,शोक
+v,0.0,0.75,tribulate,-1,tribulate
+v,0.0,0.75,besiege,-1,मुहासिरा करना
+v,0.0,0.875,abreact,-1,abreact
+v,0.0,0.875,burn,-1,जलाना
+v,0.0,0.875,smell,-1,गंध
+v,0.0,1.0,disrespect,-1,अनादर
+v,0.0,0.75,castigate,-1,जीत लिया
+v,0.0,0.75,wrong,-1,गलत
+v,0.0,0.875,humbug,-1,पाखण्ड
+v,0.0,0.75,blindside,-1,कमजोर पक्ष
+v,0.25,0.75,stink,-1,बदबू

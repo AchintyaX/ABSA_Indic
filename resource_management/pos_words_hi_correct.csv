@@ -1,0 +1,265 @@
+POS,PosScore,NegScore,SynsetTerms,correct_label,hindi
+a,0.75,0.0,direct,1,प्रत्यक्ष
+a,0.75,0.0,adoptable,1,ग्रहणीय
+a,0.75,0.125,unaffected,1,अप्रभावित
+a,0.75,0.0,due,1,देय
+a,0.875,0.0,attractive,1,मोह लेने वाला
+a,0.75,0.0,beautiful,1,सुंदर
+a,0.75,0.0,gorgeous,1,भव्य
+a,0.75,0.0,picturesque,1,सुरम्य
+a,0.875,0.125,pretty,1,सुंदर हे
+a,0.75,0.0,ravishing,1,सुंदर
+a,0.75,0.0,stunning,1,चौका देने वाला
+a,0.75,0.0,beneficent,1,उपकारवाला
+a,0.75,0.0,benefic,1,फायदेमंद
+a,0.75,0.0,best,1,श्रेष्ठ
+a,1.0,0.0,unsurpassable,1,unsurpassable
+a,0.875,0.0,better,1,बेहतर
+a,0.75,0.0,finer,1,महीन
+a,0.875,0.0,better,1,बेहतर
+a,0.75,0.0,thorough,1,संपूर्ण
+a,0.75,0.0,cautious,1,सतर्क
+a,0.75,0.0,cheerful,1,हंसमुख
+a,0.75,0.0,intimate,1,सूचित करना
+a,0.75,0.0,competent,1,सक्षम
+a,0.75,0.0,workmanlike,1,कारीगर जैसे
+a,0.75,0.0,competent,1,सक्षम
+a,0.75,0.0,full-blown,1,प्रफुल्ल
+a,0.75,0.0,congenial,1,अनुकूल
+a,0.75,0.0,sociable,1,मिलनसार
+a,0.75,0.0,conspicuous,1,विशिष्ट
+a,0.75,0.0,differentiable,1,विभेदक
+a,0.75,0.125,constant,1,स्थिर
+a,0.75,0.25,incorrupt,1,ईमानदार
+a,0.75,0.0,corn-fed,1,मक्का खिलाया
+a,0.875,0.0,courteous,1,विनम्र
+a,0.75,0.0,decorous,1,शिष्ट
+a,0.75,0.0,definite,1,निश्चित
+a,0.75,0.125,importunate,1,हठी
+a,0.75,0.0,plummy,1,किशमिश से भरा हुआ
+a,0.875,0.0,discerning,1,विवेकी
+a,0.75,0.0,good,1,अच्छा
+a,0.75,0.0,incisive,1,काटा हुआ
+a,0.75,0.0,metal-cutting,1,धातु को काटना
+a,0.75,0.125,hot,0,गरम
+a,0.875,0.0,bounden,1,परम
+a,0.875,0.0,disenchanted,1,मोहभंग
+a,0.75,0.0,exportable,1,निर्यात
+a,0.75,0.0,enlightened,1,प्रबुद्ध
+a,0.75,0.0,glowing,1,प्रकाश से युक्त
+a,1.0,0.0,estimable,1,आदर लायक़
+a,0.75,0.0,admirable,1,प्रशंसनीय
+a,0.75,0.0,perfect,1,उत्तम
+a,0.75,0.0,exchangeable,1,बदलानेवाला
+a,0.75,0.0,expendable,1,उपभोजित
+a,0.75,0.0,extricable,1,extricable
+a,0.875,0.0,quaint,1,विचित्र
+a,0.75,0.0,indulgent,1,कृपालु
+a,0.75,0.0,fit,1,फिट
+a,0.875,0.0,worthy,1,योग्य
+a,0.75,0.0,fortunate,1,भाग्यशाली
+a,0.75,0.0,lucky,1,सौभाग्यशाली
+a,0.75,0.125,fragrant,1,सुगंधित
+a,0.75,0.0,pleasant-smelling,1,सुखद महक
+a,0.75,0.0,good,1,अच्छा
+a,0.75,0.0,goodish,1,goodish
+a,0.875,0.0,solid,1,ठोस
+a,0.875,0.0,superb,1,उत्तम
+a,1.0,0.0,good,1,अच्छा
+a,0.875,0.0,goody-goody,1,पाखंडी
+a,0.75,0.0,white,0,सफेद
+a,0.75,0.0,good-natured,1,नेकदिल
+a,0.875,0.0,gainly,1,Gainly
+a,0.875,0.0,gracious,1,विनीत
+a,0.875,0.0,happy,1,प्रसन्न
+a,0.75,0.0,harmonious,1,सामंजस्यपूर्ण
+a,0.75,0.0,healthful,1,स्वस्थ
+a,0.75,0.0,healthy,1,स्वस्थ
+a,0.75,0.0,bouncing,1,उछाल वाली
+a,0.875,0.0,firm,1,दृढ़
+a,0.75,0.0,hearty,1,हार्दिक
+a,0.75,0.0,well-preserved,1,अच्छी तरह से संरक्षित
+a,0.75,0.0,honest,1,ईमानदार
+a,0.75,0.0,laureate,1,पुरस्कार विजेता
+a,0.875,0.0,amicable,1,मैत्रीपूर्ण
+a,0.75,0.0,droll,1,हंसी उड़ाना
+a,0.75,0.0,measurable,1,औसत दर्जे का
+a,0.875,0.0,formidable,1,दुर्जेय
+a,0.875,0.0,intellectual,1,बौद्धिक
+a,0.75,0.0,sophisticated,1,जटिल
+a,0.75,0.0,inviting,1,आमंत्रित
+a,0.75,0.0,gladsome,1,ख़ुश
+a,0.75,0.0,gentle,1,सज्जन
+a,0.875,0.0,legendary,1,प्रसिद्ध
+a,0.75,0.0,promising,1,का वादा
+a,0.75,0.0,loving,1,प्यारा
+a,0.875,0.0,lucky,1,सौभाग्यशाली
+a,0.75,0.0,singable,1,singable
+a,0.75,0.0,merciful,1,कृपालु
+a,0.75,0.125,moralistic,1,नैतिक
+a,0.75,0.0,righteous,1,न्याय परायण
+a,0.75,0.25,incorrupt,1,ईमानदार
+a,0.75,0.0,licit,1,बोली
+a,0.75,0.0,principled,1,सिद्धांतवादी
+a,0.875,0.0,incumbent,1,निर्भर
+a,0.875,0.0,nice,1,अच्छा
+a,1.0,0.0,good,1,अच्छा
+a,0.75,0.0,pleasant,1,सुहानी
+a,0.75,0.0,unimpassioned,1,unimpassioned
+a,0.75,0.0,ideal,1,आदर्श
+a,0.875,0.0,idyllic,1,सुखद जीवन का
+a,0.875,0.0,admirable,1,प्रशंसनीय
+a,0.875,0.0,charming,1,आकर्षक
+a,0.875,0.0,sweet,1,मिठाई
+a,0.75,0.0,finished,1,ख़त्म होना
+a,0.875,0.0,constructive,1,रचनात्मक
+a,0.75,0.0,precise,1,ठीक
+a,0.75,0.0,microscopic,0,सूक्ष्म
+a,0.75,0.0,privileged,1,विशेषाधिकार प्राप्त
+a,0.75,0.0,proper,1,उचित
+a,0.75,0.0,halal,1,वैध
+a,0.75,0.0,kosher,1,कोषेर
+a,0.75,0.125,disarming,1,निरस्त्रीकरण
+a,0.75,0.125,white,0,सफेद
+a,0.75,0.0,ladylike,0,स्रीवत
+a,0.75,0.25,unprintable,1,गंदा
+a,0.875,0.0,reputable,1,सम्मानित
+a,0.875,0.0,diffident,1,संकोची
+a,0.875,0.0,answerable,1,जवाबदेह
+a,0.75,0.125,emancipative,1,emancipative
+a,0.75,0.0,danceable,1,danceable
+a,0.875,0.0,righteous,1,न्याय परायण
+a,0.75,0.125,opposite,0,सामने
+a,0.75,0.0,sane,1,समझदार
+a,1.0,0.0,sensational,1,संवेदनात्मक
+a,0.75,0.25,antiseptic,1,सड़न रोकनेवाली दबा
+a,0.75,0.0,shapely,1,सुडौल
+a,0.75,0.0,well-proportioned,1,अच्छी तरह से सानुपातिक
+a,0.75,0.0,monumental,1,स्मरणार्थ
+a,0.75,0.0,delicate,1,नाज़ुक
+a,0.75,0.0,sound,1,ध्वनि
+a,0.875,0.125,straightarrow,1,सीधा तीर
+a,0.75,0.0,upper,1,ऊपरी
+a,0.875,0.0,banner,1,बैनर
+a,0.75,0.0,gilt-edged,1,पहली श्रेणी का
+a,0.75,0.0,outstanding,1,बकाया
+a,0.75,0.0,premium,1,प्रीमियम
+a,0.75,0.0,shining,1,चमकदार
+a,0.875,0.0,spiffing,1,spiffing
+a,0.75,0.0,supreme,1,सुप्रीम
+a,0.75,0.125,choice,1,पसंद
+a,0.75,0.0,serviceable,1,फ़ायदेमंद
+a,0.875,0.0,virtuous,1,धार्मिक
+a,0.75,0.0,well,1,कुंआ
+a,0.875,0.0,worthy,1,योग्य
+a,0.75,0.0,sacred,1,धार्मिक
+a,0.75,0.0,constitutional,1,संवैधानिक
+a,0.75,0.0,deliverable,1,प्रदेय
+a,0.75,0.0,ducal,1,Ducal
+n,0.75,0.0,masterstroke,1,मास्टरस्ट्रोक
+n,0.75,0.0,pleasantry,1,हँसी
+n,0.75,0.0,indignity,1,रोष
+n,0.875,0.0,props,1,रंगमंच की सामग्री
+n,0.75,0.0,titillation,1,गुदगुदाना
+n,0.75,0.0,beatification,1,परम सुख
+n,0.75,0.0,rambouillet,1,Rambouillet
+n,0.75,0.0,classic,1,क्लासिक
+n,0.875,0.0,character,1,चरित्र
+n,0.75,0.0,drama,1,नाटक
+n,0.75,0.0,chirpiness,1,chirpiness
+n,0.75,0.25,vivacity,1,चुस्ती
+n,0.75,0.0,mettlesomeness,1,mettlesomeness
+n,0.875,0.0,bluffness,1,bluffness
+n,0.875,0.0,picturesqueness,1,सरसता
+n,0.75,0.0,pleasingness,1,pleasingness
+n,0.75,0.0,attractiveness,1,आकर्षण
+n,0.75,0.25,innateness,1,innateness
+n,0.75,0.0,totality,1,समग्रता
+n,0.75,0.25,looseness,1,ढील
+n,0.875,0.0,wholesomeness,1,स्वास्थ्य-प्रदाता
+n,0.875,0.0,healthfulness,1,healthfulness
+n,0.75,0.0,trueness,1,सच्चाई
+n,0.875,0.0,elegance,1,लालित्य
+n,0.875,0.0,elegance,1,लालित्य
+n,0.875,0.0,tastefulness,1,tastefulness
+n,0.875,0.0,urbanity,1,शिष्टता
+n,0.75,0.125,righteousness,1,धर्म
+n,0.875,0.125,morality,1,नैतिकता
+n,0.75,0.125,virtue,1,गुण
+n,0.75,0.0,conscientiousness,1,कर्त्तव्य निष्ठां
+n,0.75,0.25,safeness,1,निश्चिंतता
+n,0.75,0.0,scrupulousness,1,परिशुद्धता
+n,0.875,0.125,integrity,1,अखंडता
+n,0.75,0.0,probity,1,ईमानदारी
+n,0.75,0.0,artfulness,1,चलाकी
+n,0.875,0.0,dedication,1,निष्ठा
+n,0.875,0.0,decency,1,शिष्टता
+n,0.875,0.0,urbanity,1,शिष्टता
+n,0.875,0.0,crispness,1,करारापन
+n,0.75,0.25,extremeness,1,ज़्यादती
+n,0.75,0.0,worth,1,लायक
+n,0.75,0.0,reasonableness,1,तर्कसंगतता
+n,0.75,0.0,affirmativeness,1,affirmativeness
+n,0.75,0.125,importance,1,महत्त्व
+n,0.875,0.125,account,1,लेखा
+n,0.75,0.125,meaningfulness,1,सार्थकता
+n,0.75,0.25,shrillness,1,कर्कशता
+n,0.75,0.0,eye,0,आंख
+n,0.75,0.0,logic,1,तर्क
+n,0.875,0.0,judiciousness,1,judiciousness
+n,0.75,0.0,ear,0,कान
+n,0.75,0.0,balletomania,1,balletomania
+n,0.75,0.0,mastering,1,मास्टरिंग
+n,0.75,0.0,principle,1,सिद्धांत
+n,0.75,0.0,hedonism,1,हेडोनिजम
+n,0.75,0.0,courtesy,1,के सौजन्य से
+n,0.75,0.0,topper,1,टोपर
+n,0.875,0.0,divination,1,अटकल
+n,0.75,0.125,moralism,1,नीतिज्ञता
+n,0.875,0.0,bonheur,1,ख़ुशी
+n,0.75,0.0,beneficence,1,उपकार
+n,0.75,0.0,criollo,1,क्रियोल
+n,0.75,0.0,amoralist,1,amoralist
+n,0.75,0.0,brick,0,ईंट
+n,1.0,0.0,first-rater,1,पहली दर निर्धारित करने वाला
+n,0.75,0.0,out-and-outer,1,एकाकी
+n,0.75,0.0,pleaser,1,pleaser
+n,0.75,0.0,possible,1,मुमकिन
+n,0.75,0.125,serendipity,1,नसीब
+n,0.75,0.0,antithesis,1,विलोम
+n,0.75,0.0,contrary,1,विरोध
+n,0.875,0.125,radiance,1,चमक
+n,0.75,0.25,algidity,1,algidity
+n,0.75,0.125,pathology,1,विकृति विज्ञान
+n,0.875,0.0,character,1,चरित्र
+n,0.75,0.0,fettle,1,अवस्था
+n,0.75,0.0,time,0,समय
+r,0.75,0.0,simply,1,केवल
+r,0.75,0.0,well,1,कुंआ
+r,0.75,0.0,well,1,कुंआ
+r,0.75,0.0,well,1,कुंआ
+r,0.875,0.125,admiringly,1,admiringly
+r,0.75,0.125,adoringly,1,adoringly
+r,0.875,0.0,better,1,बेहतर
+r,0.75,0.0,downright,1,सर्वथा
+v,0.75,0.0,recuperate,1,स्वस्थ हो जाना
+v,0.75,0.0,redound,1,सहायता देना
+v,0.75,0.0,enervate,1,कमज़ोर
+v,0.75,0.0,purify,1,शुद्ध
+v,0.75,0.0,delouse,1,delouse
+v,0.75,0.0,think,1,सोच
+v,0.75,0.0,receive,1,प्राप्त करना
+v,0.75,0.0,consider,1,विचार करें
+v,0.875,0.0,dazzle,1,चकाचौंध
+v,0.75,0.0,cheer,1,जयकार
+v,0.75,0.125,give,1,देना
+v,0.875,0.0,filigree,1,चांदी के महीन
+v,1.0,0.0,like,1,पसंद
+v,0.75,0.125,stultify,1,मूर्ख बनाना
+v,0.875,0.0,prefer,1,पसंद करते हैं
+v,0.75,0.0,see,1,देख
+v,0.875,0.0,vest,1,बनियान
+v,0.875,0.0,agree,1,इस बात से सहमत
+v,0.875,0.0,suit,1,सूट
+v,0.75,0.0,belong,1,संबंधित
+v,0.875,0.0,make,1,बनाना
