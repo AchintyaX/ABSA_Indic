@@ -2,19 +2,19 @@
 # Useful to quickly change resources being used by directly changing the path 
 
 # Location of the file containing stopwords for hindi 
-HINDI_STOPWORDS = '/content/drive/My Drive/jio_project/ABSA/resource_management/hindi_stopwords.txt'
+HINDI_STOPWORDS = '/content/ABSA_Indic/resource_management/hindi_stopwords.txt'
 
 # Location where all the polar words files of all different languages are stored 
-LANGUAGE_RESOURCES = '/content/drive/My Drive/jio_project/ABSA/language_resources /'
+LANGUAGE_RESOURCES = '/content/ABSA_Indic/language_resources '
 
 # Location where all the FastText Language models are stored 
 LANGUAGE_MODELS = '/content/drive/My Drive/jio_project/ABSA/language_models/'
 
 # Location for the lemmatized absolute positive english words 
-POS_ENG_WORDS = "/content/drive/My Drive/jio_project/ABSA/resource_management/pos_lemm.txt"
+POS_ENG_WORDS = "/content/ABSA_Indic/resource_management/pos_lemm.txt"
 
 # Location for lemmatized absolute negative3 english words 
-NEG_ENG_WORDS = "/content/drive/My Drive/jio_project/ABSA/resource_management/neg_lemm.txt"
+NEG_ENG_WORDS = "/content/ABSA_Indic/resource_management/neg_lemm.txt"
 
 
 # list of all the languages that the current code can support 
