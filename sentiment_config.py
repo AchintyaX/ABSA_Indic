@@ -5,7 +5,7 @@
 HINDI_STOPWORDS = '/content/ABSA_Indic/resource_management/hindi_stopwords.txt'
 
 # Location where all the polar words files of all different languages are stored 
-LANGUAGE_RESOURCES = '/content/ABSA_Indic/language_resources '
+LANGUAGE_RESOURCES = '/content/ABSA_Indic/language_resources /'
 
 # Location where all the FastText Language models are stored 
 LANGUAGE_MODELS = '/content/drive/My Drive/jio_project/ABSA/language_models/'
