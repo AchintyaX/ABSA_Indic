@@ -5,7 +5,7 @@ from gensim.models.fasttext import FastText
 import nltk 
 from nltk.stem import WordNetLemmatizer
 import stanza 
-
+from article_preprocessing import *
 
 nltk.download('wordnet')
 
@@ -84,19 +84,36 @@ def polar_dependency_tree(aspect_term, article_line, lang_code):
 
 def get_polarity_dep_tree(aspect_term, sentences, lang_code,model=None ):
 	polarity = 0
+	if lang_code == 'en':
+		aspect_term = spacy_tokenizer(aspect_term)
+	if lang_code == 'hi':
+		aspect_term = tokenize_hin(aspect_term)
 	for sentence in sentences:
-		polar_words = polar_dependency_tree(aspect_term, sentence, lang_code)
-		if len(polar_words) > 0:
-			if lang == 'en':
-				senti_vector = sentiment_coeff(polar_words)
+		if lang_code in ['en', 'hi']:
+			polar_words_tot = []
+			for term in aspect_term:
+				polar_words = polar_dependency_tree(term, sentence, lang_code)
+				polar_words_tot.extend(polar_words)
+			polar_words_tot = list(set(polar_words_tot))
+			if len(polar_words_tot) > 0:
+				if lang_code == 'en':
+					senti_vector = sentiment_coeff(polar_words_tot)
+				if lang_code == 'hi':
+					senti_vector = get_senti_coeff_indic(polar_words_tot, lang_code, model)
+				sentiment = sum(senti_vector)
+				polarity = polarity + sentiment
 			else:
-				senti_vector = get_senti_coeff_indic(polar_words,lang_code, model)
-
-			sentiment = sum(senti_vector)
-			polarity = polarity + sentiment
+				polarity = polarity + 0
 		else:
-			polarity = polarity + 0 
+			polar_words = polar_dependency_tree(aspect_term, sentence, lang_code)
+			if len(polar_words) > 0:
 
+				senti_vector = get_senti_coeff_indic(polar_words,lang_code, model)
+				sentiment = sum(senti_vector)
+				polarity = polarity + sentiment
+			else:
+				polarity = polarity + 0 
+		
 	if polarity > 0:
 		return 1
 	elif polarity == 0:
