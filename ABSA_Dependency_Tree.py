@@ -4,6 +4,8 @@ import numpy as np
 from gensim.models.fasttext import FastText
 import nltk 
 from nltk.stem import WordNetLemmatizer
+import stanza 
+
 
 nltk.download('wordnet')
 
