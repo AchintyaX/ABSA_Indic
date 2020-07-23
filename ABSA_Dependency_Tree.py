@@ -86,7 +86,7 @@ def get_polarity_dep_tree(aspect_term, sentences, lang_code,model=None ):
 	polarity = 0
 	for sentence in sentences:
 		polar_words = polar_dependency_tree(aspect_term, sentence, lang_code)
-		if len(polar_words >0):
+		if len(polar_words) > 0:
 			if lang == 'en':
 				senti_vector = sentiment_coeff(polar_words)
 			else:
